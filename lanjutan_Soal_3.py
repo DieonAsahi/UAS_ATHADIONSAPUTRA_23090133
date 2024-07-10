@@ -1,8 +1,6 @@
-# order_system.py
 from Soal_3 import Queue
 
 def main():
-    # Inisialisasi antrian pesanan
     order_queue = Queue()
 
     while True:
