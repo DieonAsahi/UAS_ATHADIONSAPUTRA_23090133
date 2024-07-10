@@ -1,10 +1,6 @@
-# mahasiswa_manager.py
-
-# Inisialisasi dictionary untuk menyimpan data mahasiswa
 mahasiswa = {}
 
 def tambah_mahasiswa(nim, nama):
-    """Menambahkan data mahasiswa."""
     if nim in mahasiswa:
         print(f"Mahasiswa dengan NIM '{nim}' sudah ada. Mengupdate nama.")
         mahasiswa[nim] = nama
@@ -13,7 +9,6 @@ def tambah_mahasiswa(nim, nama):
     print(f"Mahasiswa dengan NIM '{nim}' dan nama '{nama}' berhasil ditambahkan/diupdate.")
 
 def tampilkan_mahasiswa():
-    """Menampilkan semua data mahasiswa."""
     if mahasiswa:
         print("Daftar mahasiswa:")
         for nim, nama in mahasiswa.items():
