@@ -6,11 +6,9 @@ def tambah_buah():
     return Mangga(nama, jenis)
 
 def main():
-    # Memasukkan informasi buah
     print("=== Menambahkan Buah Mangga ===")
     mangga1 = tambah_buah()
 
-    # Menampilkan deskripsi buah mangga
     print("\n=== Deskripsi Buah Mangga ===")
     print(mangga1.deskripsi())
 
